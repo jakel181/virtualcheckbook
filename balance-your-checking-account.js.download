@@ -1,0 +1,30 @@
+var txt = [
+	'You forgot to ask your mom to write a check for a field trip. The check is due today, so you write a check of your own (#115) for $18.00 to AnyTown High School.',
+	'You deposit your paycheck for October 15-30 for $62.75.',
+	'It\'s your birthday! You get a check from your grandmother for $25.00. You deposit it today.',
+	'You go to a sporting event and run out of money.  You use the ATM in the lobby to get $15 for snacks.',
+	'Your credit card bill is due on November 17, so today you write a check (#116) to Credit USA for $51.16.',
+	'Your sister, Ann, owes you money. She pays you $20 that you deposit.',
+	'You need to buy flowers for the dance. You go to the ATM and withdraw $25.',
+	'You deposit your paycheck for November 1-15 for $65.65.',
+	'Your Aunt Jane, who is always late, sends you a birthday check for $35 that you received on the 12th of November, but you\'re busy and you don\'t deposit it until today.'
+];
+
+$(document).ready(function(){
+	var curr = 1;
+	var str = '#tbrow_0_num_8, #tbrow_0_num_9, ';
+	$.each([1,2,3,4,5,6,7,8,9],function(i,v){
+		str += '#tbrow_'+v+'_num_4, #tbrow_'+v+'_num_5, #tbrow_'+v+'_num_6, #tbrow_'+v+'_num_7, #tbrow_'+v+'_num_8, #tbrow_'+v+'_num_9, ';
+	});
+	$(str.slice(0, -2)).numeric({ negative : false });
+	$('#button-continue').click(function(){
+		$('#bal').text(txt[curr-1]);
+		$('#cal').removeClass().addClass('day-'+curr);
+		$('#register table tbody tr').removeClass('current');
+		$('.tbrow-'+curr).addClass('current').find('input').show();
+		if (curr == 1) { $('.tbrow-0 .tbcol-10 img').css('background-position','right 30px'); }
+		if (curr == 9) { $('#button-check-balance').css('display','block'); $('#button-continue').hide();  }
+		curr++;
+	});
+	$('#button-check-balance').click(function(){ $('#bal').text('The correct balance is $336.71'); $(this).hide(); });
+});

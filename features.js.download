@@ -1,0 +1,20 @@
+$(function() {
+	$("a.jTip").each(function(i){
+		  this.name = $(this).html();
+		  this.id = $(this).html();
+		  this.href = "../scripts/glossary.php?word="+this.innerHTML;//+"?width=175";
+	});
+	
+	$.ajax({
+		type: "GET",
+		url: "../xml/didYouKnow.xml",
+		dataType: "xml",
+		success: function(xmlData)
+		{
+			xmlDataSet = xmlData;
+			var quoteRand = Math.round(Math.random()*60);
+			var quoteText = $("item:eq(" + parseInt(quoteRand) + ")",xmlDataSet).text();
+			$("#col-left-bot p").html(quoteText);
+		}
+	});
+});

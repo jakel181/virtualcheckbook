@@ -1,0 +1,454 @@
+/*-----------------------------------------------------------------------------
+TheMint.org Style Sheet
+
+version:   1.0
+author:    Topside Design and MCITY CREATIVE,LLC.
+email:     spa@mcitycreative.com
+website:   http://www.mcitycreative.com/
+-----------------------------------------------------------------------------*/
+
+/* General
+-----------------------------------------------------------------------------*/
+/* Remove padding and margin */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {}
+/*	html html {
+height:300px;
+}
+*/
+/* Put it back on certain elements */
+h1, h2, h3, h4, p { margin: 0; }
+p, li { line-height: 1.4; }
+
+/* Base font sizes */
+h1{
+	font-size: 2.25em;
+	line-height: 1em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+h2{
+	font-size: 1.5em;
+	line-height: 1em;
+	padding-bottom: .25em;
+}
+h3 {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+ol{
+	padding-bottom: 1em;
+}
+ol li {
+	margin-left: 20px;
+	padding-right: 1em;
+}
+blockquote {
+	padding-left: 1em;
+	margin-bottom: .5em;
+	padding-bottom: 0px;
+}
+blockquote blockquote {
+	margin-left: 1em;
+	border-left: 3px solid #EFEFEF;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+/* Class for clearing floats */
+.clear { clear:both; }
+
+/* Remove border around linked images */
+img { border: 0; }
+
+/* Transparent PNG fix */
+img { behavior: url(../css/iepngfix.htc) } 
+
+
+
+/* Structure
+-----------------------------------------------------------------------------*/
+body {
+	text-align: center;
+	min-width: 789px;
+    background-image:none !important;
+    background-color: #dadedf !important;
+}
+	
+#wrapper {
+	/* width: 789px; - UPDATED 20130530 */
+	width: 986px;
+	margin: 35px auto 25px;
+	text-align: left;
+	background: #FFFFFF;
+	position: relative;
+	padding-bottom: 17px;
+	/*height: 100%;*/
+	} 
+.logo {
+	height: 106px;
+	width: 256px;
+	position: absolute;
+	padding-top: 17px;
+	padding-left: 17px;
+	
+	z-index: 999;
+}
+#head-flash {
+	padding-top: 45px;
+}
+#flashcontent {
+	height: 123px;
+	width: 789px;
+}
+#flashcontent p {
+	text-align: right;
+	display: block;
+	margin-top: 45px;
+	margin-right: 30px;
+}
+#home #flashcontent,
+#about #flashcontent,
+#contact-us #flashcontent,
+#northwestern-mutual-foundation #flashcontent,
+#glossary #flashcontent,
+#why-the-mint #flashcontent,
+#privacy-statement #flashcontent,
+#site-map #flashcontent,
+#polls #flashcontent,
+#search #flashcontent,
+#try-it #flashcontent,
+#media #flashcontent
+{ 
+height: 97px; 
+}
+#flashActivity {
+	margin-top: 1em;
+}
+#head-nav {
+	position: absolute;
+	top: 17px;
+	right: 17px;
+	height: 30px;
+	z-index: 5;
+	text-align: left;
+}
+#head-nav form {
+	margin: 0px;
+	padding: 0px;
+}
+
+#col-container {
+	margin: 0px 17px;
+}
+#col-left-top {
+	padding-bottom: 15px;
+	width: 160px;
+	height:425px;/**/
+}
+#col-left-top h2 { padding: 15px 0px 0px 15px; }
+#col-left-top ul{
+	padding-top: 10px;
+	list-style: none;
+}
+	#col-left-top ul ul{
+		padding-top: 0px;
+		margin-left: 15px;
+	}
+	#col-left-top ul ul a{
+		width: 120px;
+		font-weight: normal;
+	}
+#col-left-top ul a{
+	text-decoration: none;
+	display: block;
+	margin: 0px 0px 0px 15px;
+	padding: 0px 0px 10px;
+	width: 135px;
+	line-height: 1em;
+	color: #636466;
+	font-weight: normal;
+}
+	#col-left-top ul a:hover{
+		color: #000;
+		font-weight: normal;
+	}
+#col-left-top ul li.on {
+	background: url(../images/icon-arrow.gif) no-repeat left top;
+}
+#col-left-top ul li.on>a{
+	/* ">" child selector not supported in IE 5-6*/
+	color: #000;
+	font-weight: bold;
+}
+#col-left-bot {
+	padding-bottom: 5px;
+	height: 160px;
+	width: 160px;
+	position: absolute;
+	bottom: 0px;
+	margin-bottom: 65px;
+}
+#col-right {
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+#col-right ul, #col-right ol {
+	padding-bottom: 1em;
+	padding-left: 1em;
+}
+
+#col-right li {
+	padding-right: 1em;
+	padding-bottom: .5em;
+	margin-left: 30px;
+}
+
+#footer {
+	margin: 0px 17px;
+	height: 45px;
+	padding: 4px;
+	color: #fff
+}
+#footer img {
+	position: relative;
+	left: 5px;
+	top: 5px;
+}
+
+/* Top Nav
+-----------------------------------------------------------------------------*/
+#head-nav ul {
+}
+/*
+#head-nav li {
+	list-style: none;
+	padding-right: 10px;
+	padding-left: 10px;
+	float: left;
+	font-size: 0.95em;
+	font-weight: bold;
+	color: #666666;
+	background: url(../images/divider.gif) no-repeat right 4px;
+}
+*/
+#head-nav a {
+	padding-right: 10px;
+	padding-left: 5px;
+	font-size: 0.95em;
+	font-weight: normal;
+	color: #999999;
+	text-decoration: none;
+	background: url(../images/divider.gif) no-repeat right 2px;
+}
+#head-nav label {
+	color: #999999;
+	font-size: 0.95em;
+	padding-right: 5px;
+	padding-left: 5px;
+	display: block;
+	float: left;
+}
+#head-nav input {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	display: inline;
+}
+
+#head-nav a:link, #head-nav a:visited {}
+#head-nav a:hover,  #head-nav a:active{
+	color:#333333;
+}
+
+/* Footer Nav
+-----------------------------------------------------------------------------*/
+#footer a:link, #footer a:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#footer a:hover,  #footer a:active{
+	color:#D2DC3E;
+	text-decoration: none;
+}
+/* Typography
+-----------------------------------------------------------------------------*/
+body {
+  font: 76%/1.6 Arial, Helvetica, sans-serif;
+  color: #000;
+}
+.col-left p {
+	line-height: 1.2em;
+	font-size: 0.94em;
+	font-weight: normal;
+	padding-right: 13px;
+	padding-left: 10px;
+	margin-bottom: 1em;
+}
+#col-right p {
+	font-size: 1.2em;
+	font-weight: normal;
+	padding-bottom: 1em;
+	padding-right: 1em;
+}
+
+.whatsNew {
+	position: relative;
+	top: 3px;
+	left: 10px;
+}
+/*
+Text replacement version
+.whatsNew {
+	background: url(../images/whats-new.gif) no-repeat 10px 5px;
+	height: 80px;
+	padding: 5px 10px;
+}
+*/
+.try-it {
+	padding: 30px;
+}
+.didYouKnow {
+	position: relative;
+	top: -8px;
+	left: 10px;
+}
+#copyright {
+	font-size: 0.9em;
+	color: #FFFFFF;
+	line-height: 1.2em;
+	margin: 7px 7px 0px 7px;
+	font-weight: normal;
+	display: block;
+	text-align: right;
+}
+
+/*
+// Original
+#copyright {
+	font-size: 0.9em;
+	color: #FFFFFF;
+	line-height: 1.2em;
+	margin-left: 280px;
+	font-weight: normal;
+	display: block;
+	margin-top: 8px;
+}
+*/.dev-need {
+	background: #FF0000;
+}
+.dev-review {
+	background: #FFFF00;
+}
+.dev-glossary {
+	background: #FF00FF;
+}
+.alt{
+	display:none;
+}
+.dataTable td{
+	padding: 0px 3px;
+}
+
+.footnote {
+	font-size: smaller;
+	font-style: italic;
+}
+
+#head-flash
+{
+	position: relative;
+	/* width: 789px; - UPDATED 20130530 */
+	width: 986px;
+	height: 168px;
+	padding-top: 0;
+}
+	.utility #head-flash { height: 142px; }
+	#nav_primary
+	{
+		position: absolute;
+		bottom: 34px;
+		right: 17px;
+		width: 600px;
+		height: 56px;
+		background: transparent url('../images/bg_nav.gif') no-repeat 0 11px;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+		.utility #nav_primary { bottom: 8px; right: 16px; }
+		#nav_primary li
+		{
+			float: left;
+    		position: relative;
+		}
+		#nav_primary a
+		{
+			display: block;
+			width: 115px;
+			height: 56px;
+			text-indent: -9999px;
+			background: transparent url('../images/bg_nav.gif') no-repeat 0 -112px;
+		}
+		
+			#nav_primary a.nav_primary_5 { width:140px; /*The Mint Grad tab is longer*/}
+			
+			#nav_primary a.nav_primary_1:hover,
+			.kids #nav_primary a.nav_primary_1 { background-position: 0 -45px; }
+			
+			#nav_primary a.nav_primary_2:hover,
+			.teens #nav_primary a.nav_primary_2 { background-position: -115px -45px; }
+			
+			#nav_primary a.nav_primary_3:hover,
+			.parents #nav_primary a.nav_primary_3 { background-position: -230px -45px; }
+			
+			#nav_primary a.nav_primary_4:hover,
+			.teachers #nav_primary a.nav_primary_4 { background-position: -345px -45px; }
+			
+			#nav_primary a.nav_primary_5:hover,
+			.theMintGrad #nav_primary a.nav_primary_5 { background-position: -460px -45px; }
+			
+	#nav_secondary
+	{
+		position: absolute;
+		bottom: 0;
+		left: 17px;
+		/* width: 748px; - UPDATED 20130530 */
+		width: 944px;
+		height: 26px;
+		padding: 4px;
+	}
+		.utility #nav_secondary
+		{
+			padding: 0;
+			height: 8px;
+			/* width: 756px; - UPDATED 20130530 */
+			width: 953px;
+			_font-size: 0; /* aargh IE6 */
+		}
+		#nav_secondary ul
+		{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+			#nav_secondary li
+			{
+				float: left;
+    			position: relative;
+			}
+			#nav_secondary a
+			{
+				display: block;
+				line-height: 26px;
+				color: #fff;
+				font-size: 13px;
+				font-weight: bold;
+				padding: 0 14px;
+				text-decoration: none;
+			}

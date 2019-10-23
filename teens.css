@@ -1,0 +1,309 @@
+/*-----------------------------------------------------------------------------
+TheMint.org Style Sheet
+
+version:   1.0
+author:    Topside Design and MCITY CREATIVE,LLC.
+email:     spa@mcitycreative.com
+website:   http://www.mcitycreative.com/
+-----------------------------------------------------------------------------*/
+
+/* Section specific BG and colors
+-----------------------------------------------------------------------------*/
+body {
+	background: url(../images/lime_tile.gif) repeat left top;
+}
+h1,h2,h3 {
+	color: #C2CD23;
+	font-weight: normal;
+}
+#col-left-top {
+	background: #ECEDC6;
+}
+#col-left-top p {
+	color: #FFFFFF;
+}
+#col-left-bot {
+	background: #52AF44;
+}
+#col-right h1 {
+
+}
+#col-right h2 {
+	font-size: 1.5em;
+}
+#col-right p {
+	font-size: 1em;
+}
+#col-right img {
+}
+#col-right a {
+	color: #C2CD23;
+}
+
+#footer {
+	background: #C2CD23;
+}
+#teens-home h1{
+	background: url(../images/headlines/teens/h_tips_for_teens.gif) no-repeat left top;
+}
+#saving h1 {
+	background: url(../images/headlines/teens/h_saving.gif) no-repeat left top;
+}
+#giving h1 {
+	background: url(../images/headlines/teens/h_giving.gif) no-repeat top left;
+}
+#investing h1 {
+	background: url(../images/headlines/teens/h_investing.gif) no-repeat top left;
+}
+#owing h1 {
+	background: url(../images/headlines/teens/h_owing.gif) no-repeat top left;
+}
+#safeguarding h1 {
+	background: url(../images/headlines/teens/h_safeguarding.gif) no-repeat top left;
+}
+#spending h1 {
+	background: url(../images/headlines/teens/h_spending.gif) no-repeat top left;
+}
+#tracking h1 {
+	background: url(../images/headlines/teens/h_tracking.gif) no-repeat top left;
+}
+#earning h1 {
+	background: url(../images/headlines/teens/h_earning.gif) no-repeat left top;
+}
+#writing-a-check h1 {
+	background: url(../images/headlines/teens/h_writing_a_check.gif) no-repeat top left;
+}
+#tracking-your-checking-account h1 {
+	background: url(../images/headlines/teens/h_balance_your_checking_account.gif) no-repeat top left;
+}
+#keeping-a-money-diary h1 {
+	background: url(../images/headlines/teens/h_keeping_a_money_diary.gif) no-repeat top left;
+}
+#living-on-a-budget h1 {
+	background: url(../images/headlines/teens/h_living_on_a_budget.gif) no-repeat top left;
+}
+#protecting-your-income h1 {
+	background: url(../images/headlines/teens/h_protect_your_income.gif) no-repeat top left;
+}
+#life-insurance h1 {
+	background: url(../images/headlines/teens/h_protect_your_family.gif) no-repeat top left;
+}
+#protecting-property h1 {
+	background: url(../images/headlines/teens/h_protect_your_property.gif) no-repeat top left;
+}
+#protecting-autos h1 {
+	background: url(../images/headlines/teens/h_protect_your_car.gif) no-repeat top left;
+}
+#health-insurance h1 {
+	background: url(../images/headlines/teens/h_protect_your_health.gif) no-repeat top left;
+}
+#advantages-of-credit-cards h1 {
+	background: url(../images/headlines/teens/h_advantages_of_credit_cards.gif) no-repeat top left;
+}
+#disadvantages-of-credit-cards h1 {
+	background: url(../images/headlines/teens/h_disadvantages_of_credit_cards.gif) no-repeat top left;
+}
+#credit-card-facts h1 {
+	background: url(../images/headlines/teens/h_credit_card_facts.gif) no-repeat top left;
+}
+#your-credit-history h1 {
+	background: url(../images/headlines/teens/h_your_credit_history.gif) no-repeat top left;
+}
+#give-time-and-engery h1 {
+	background: url(../images/headlines/teens/h_give_time_and_energy.gif) no-repeat top left;
+}
+	#some-ideas-are-so-simple h1 {
+		background: url(../images/headlines/teens/h_some_ideas_are_so_simple.gif) no-repeat top left;
+	}
+	#building-on-the-power-of-one h1 {
+		background: url(../images/headlines/teens/h_building_on_the_power_of_one.gif) no-repeat top left;
+	}
+	#how-one-idea-leads-to-another h1 {
+		background: url(../images/headlines/teens/h_how_one_idea_leads_to_another.gif) no-repeat top left;
+	}
+	#food-for-thought h1 {
+		background: url(../images/headlines/teens/h_food_for_thought.gif) no-repeat top left;
+	}
+	#thinking-about-tomorrow h1 {
+		background: url(../images/headlines/teens/h_thinking_about_tomorrow.gif) no-repeat top left;
+	}	
+#giving-money h1 {
+	background: url(../images/headlines/teens/h_giving_money.gif) no-repeat top left;
+}
+#giving-things h1 {
+	background: url(../images/headlines/teens/h_giving_things.gif) no-repeat top left;
+}
+#risk-and-rewards h1 {
+	background: url(../images/headlines/teens/h_risk_vs_rewards.gif) no-repeat top left;
+}
+#ways-to-invest h1 {
+	background: url(../images/headlines/teens/h_ways_to_invest.gif) no-repeat top left;
+}
+	#certificates-of-deposit h1 {
+		background: url(../images/headlines/teens/h_certificates_of_deposit.gif) no-repeat top left;
+	}
+	#money-market-accounts h1 {
+		background: url(../images/headlines/teens/h_money_market_accounts.gif) no-repeat top left;
+	}
+	#us-bonds h1 {
+		background: url(../images/headlines/teens/h_us_bonds.gif) no-repeat top left;
+	}
+	#mutual-funds h1 {
+		background: url(../images/headlines/teens/h_mutual_funds.gif) no-repeat top left;
+	}
+	#stocks h1 {
+		background: url(../images/headlines/teens/h_stocks.gif) no-repeat top left;
+	}
+	#collectibles h1 {
+		background: url(../images/headlines/teens/h_collectibles.gif) no-repeat top left;
+	}
+#what-is-the-stock-market h1 {
+	background: url(../images/headlines/teens/h_what_is_the_stock_market.gif) no-repeat top left;
+}
+#whats-it-worth h1 {
+	background: url(../images/headlines/teens/h_whats_it_worth.gif) no-repeat top left;
+}
+#buy-it-or-not h1 {
+	background: url(../images/headlines/teens/h_buy_it_or_not.gif) no-repeat top left;
+}
+#smart-shopping h1 {
+	background: url(../images/headlines/teens/h_shop_smart.gif) no-repeat top left;
+}
+#cash-check-or-credit h1 {
+	background: url(../images/headlines/teens/h_cash_check_or_credit.gif) no-repeat top left;
+}
+#how-banks-work h1 {
+	background: url(../images/headlines/teens/h_how_banks_work.gif) no-repeat top left;
+}
+#tricks-our-minds-play h1 {
+	background: url(../images/headlines/teens/h_tricks_our_minds_play.gif) no-repeat left top;
+}
+#about-savings-accounts h1 {
+	background: url(../images/headlines/teens/h_about_savings_accounts.gif) no-repeat top left;
+}
+#saving-basics h1 {
+	background: url(../images/headlines/teens/h_saving_basics.gif) no-repeat top left;
+}
+#saving-tricks h1 {
+	background: url(../images/headlines/teens/h_saving_tricks.gif) no-repeat top left;
+}
+#the-save-spend-plan h1 {
+	background: url(../images/headlines/teens/h_the_5_step_save_spend_plan.gif) no-repeat top left;
+}
+#saving-and-earning-interest h1 {
+	background: url(../images/headlines/teens/h_how_to_earn_money_by_saving_money.gif) no-repeat top left;
+}
+#starting-salaries h1 {
+	background: url(../images/headlines/teens/h_starting_salaries.gif) no-repeat top left;
+}
+#learning-and-earning h1 {
+	background: url(../images/headlines/teens/h_how_to_learn_and_earn.gif) no-repeat left top;
+}
+#be-your-own-boss h1 {
+	background: url(../images/headlines/teens/h_be_your_own_boss.gif) no-repeat left top;
+}
+	#planning-your-business h1 {
+		background: url(../images/headlines/teens/h_planning_your_business.gif) no-repeat top left;
+	}
+	#money-and-your-business h1{
+		background: url(../images/headlines/teens/h_money_and_your_business.gif) no-repeat top left;
+	}
+	#the-law-and-your-business h1{
+		background: url(../images/headlines/teens/h_the_law_and_your_business.gif) no-repeat top left;
+	}
+#decoding-your-paycheck h1 {
+	background: url(../images/headlines/teens/h_how_to_decode_your_paycheck.gif) no-repeat left top;
+}
+#saving-calculator  h1 {
+	background: url(../images/headlines/teens/h_saving_calculator.gif) no-repeat top left;
+}
+
+h1.image {
+	margin:0.5em 0px 0px;
+	padding:0em 0px 0.5em;
+	text-indent: -5000px;
+}
+#how-to-balance-work-and-school h1 {
+	background: url(../images/headlines/teens/h_how_to_balance_work_and_school.gif) no-repeat left top;
+}
+#does-money-change-value h1 {
+	background: url(../images/headlines/teens/h_does_money_change_value.gif) no-repeat left top;
+}
+
+#nav_secondary { background-color: #c2cd23; }
+
+#nav_secondary a:hover,
+#earning a.nav_secondary_1,
+#entreprenuer-challenge a.nav_secondary_1,
+#be-your-own-boss a.nav_secondary_1,
+#decoding-your-paycheck a.nav_secondary_1,
+#entreprenuer-challenge a.nav_secondary_1,
+#how-to-balance-work-and-school a.nav_secondary_1,
+#learning-and-earning a.nav_secondary_1,
+#money-and-your-business a.nav_secondary_1,
+#planning-your-business a.nav_secondary_1,
+#starting-salaries a.nav_secondary_1,
+#the-law-and-your-business a.nav_secondary_1,
+#saving a.nav_secondary_2,
+#about-savings-accounts a.nav_secondary_2,
+#compounding-calculator a.nav_secondary_2,
+#saving-and-earning-interest a.nav_secondary_2,
+#how-banks-work a.nav_secondary_2,
+#power-of-72 a.nav_secondary_2,
+#saving a.nav_secondary_2,
+#saving-calculator a.nav_secondary_2,
+#saving-tricks a.nav_secondary_2,
+#the-save-spend-plan a.nav_secondary_2,
+#the-truth-about-millionaires a.nav_secondary_2,
+#tricks-our-minds-play a.nav_secondary_2,
+#when-will-you-be-a-millionaire a.nav_secondary_2,
+#buy-it-or-not a.nav_secondary_3,
+#cash-check-or-credit a.nav_secondary_3,
+#does-money-change-value a.nav_secondary_3,
+#smart-shopping a.nav_secondary_3,
+#spending a.nav_secondary_3,
+#take-the-spending-challenge a.nav_secondary_3,
+#what-kind-of-spender-are-you a.nav_secondary_3,
+#writing-a-check a.nav_secondary_3,
+#advantages-of-credit-cards a.nav_secondary_4,
+#debt-calculator a.nav_secondary_4,
+#credit-card-facts a.nav_secondary_4,
+#disadvantages-of-credit-cards a.nav_secondary_4,
+#i-paid-how-much a.nav_secondary_4,
+#owing a.nav_secondary_4,
+#what-is-your-credit-card-iq a.nav_secondary_4,
+#balance a.nav_secondary_5,
+#determining a.nav_secondary_5,
+#keeping-a-money-diary a.nav_secondary_5,
+#tracking a.nav_secondary_5,
+#tracking-your-checking-account a.nav_secondary_5,
+#your-credit-history a.nav_secondary_5,
+#building-on-the-power-of-one a.nav_secondary_6,
+#food-for-thought a.nav_secondary_6,
+#give-time-and-engery a.nav_secondary_6,
+#giving a.nav_secondary_6,
+#giving-money a.nav_secondary_6,
+#giving-things a.nav_secondary_6,
+#how-one-idea-leads-to-another a.nav_secondary_6,
+#some-ideas-are-so-simple a.nav_secondary_6,
+#thinking-about-tomorrow a.nav_secondary_6,
+#certificates-of-deposit a.nav_secondary_7,
+#collectibles a.nav_secondary_7,
+#investing a.nav_secondary_7,
+#money-market-accounts a.nav_secondary_7,
+#mutual-funds a.nav_secondary_7,
+#risk-and-rewards a.nav_secondary_7,
+#stocks a.nav_secondary_7,
+#us-bonds a.nav_secondary_7,
+#ways-to-invest a.nav_secondary_7,
+#what-is-the-stock-market a.nav_secondary_7,
+#protecting-autos a.nav_secondary_8,
+#life-insurance a.nav_secondary_8,
+#health-insurance a.nav_secondary_8,
+#protecting-your-income a.nav_secondary_8,
+#protecting-property a.nav_secondary_8,
+#safeguarding a.nav_secondary_8,
+#try-it a.nav_secondary_9
+{
+	background-color: #b1c130;
+}
